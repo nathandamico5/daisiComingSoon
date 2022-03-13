@@ -131,4 +131,8 @@ h1 {
   h1 {
     font-size: 50px;
   }
+  .main {
+    justify-content: flex-start;
+    padding-top: 75px;
+  }
 }
