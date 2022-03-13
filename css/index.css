@@ -13,6 +13,7 @@ h1 {
   font-size: 65px;
   margin: 10px 0px 0px 0px;
   font-family: "Fredoka One", cursive;
+  text-align: center;
 }
 
 .main {
@@ -45,5 +46,12 @@ h1 {
 .logo {
   border-radius: 50%;
   width: 300px;
+  max-width: 85vw;
   height: auto;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 50px;
+  }
 }
