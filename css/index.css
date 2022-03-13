@@ -46,6 +46,11 @@ h1 {
   transition: all 0.3s;
 }
 
+.arrow-contain {
+  display: flex;
+  justify-content: center;
+}
+
 .arrow {
   width: 50px;
   height: auto;
